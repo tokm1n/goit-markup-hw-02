@@ -59,7 +59,8 @@ body {
 }
 .link:hover,
 :focus {
-  color: var(--accent-color);
+  background: var(--accent-color);
+  border-radius: 2px;
 }
 
 /* Контакты */

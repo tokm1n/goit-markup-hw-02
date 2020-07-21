@@ -58,7 +58,7 @@ body {
 }
 
 /* Навигацыя */
-.menu-nav .link {
+.menu-nav {
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -67,7 +67,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.link:hover,
+.link .linki:hover,
 :focus {
   background: #2196f3;
   border-radius: 2px;
