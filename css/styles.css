@@ -28,14 +28,33 @@ body {
 }
 
 /* Логотип */
-.logo {
+.logoweb {
   color: var(--accent-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.logostudio {
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.foot .logostudio {
+  color: var(--white-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background: #2f303a;
 }
 
 /* Навигацыя */
@@ -45,11 +64,13 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.menu-nav .link:hover {
-  color: var(--accent-color);
+.link:hover,
+:focus {
+  background: #2196f3;
+  border-radius: 2px;
 }
 
 /* Контакты */
@@ -88,7 +109,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background: #2f303a;
+  background-color: #2f303a;
 }
 .info-mail {
   font-family: "Roboto", sans-serif;
