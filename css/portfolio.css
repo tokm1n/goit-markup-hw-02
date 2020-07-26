@@ -46,6 +46,16 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+.foot .logostudio {
+  color: var(--white-color);
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  background: #2f303a;
+}
 
 /* Навигацыя */
 .menu-nav .link {
@@ -65,21 +75,34 @@ body {
 
 /* Контакты */
 .menu-contacts .linki {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 .menu-contacts .linki:hover {
-  color: var(--accent-color);
+  background: var(--accent-color);
 }
 
 /* Фильтр */
-.btn-filtr {
-  color: var(--title-text-color);
-}
-.btn:hover,
-:focus {
-  color: var(--accent-color);
-}
 
+.btn-filtr {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn .btn-filtr:hover,
+:focus {
+  background: #2196f3;
+  color: white;
+}
 /* Проеткы */
 .project-link {
 }

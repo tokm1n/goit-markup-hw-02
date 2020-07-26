@@ -10,6 +10,7 @@
 
 /* font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif; */
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -67,36 +68,125 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.link .linki:hover,
+.link:hover,
 :focus {
-  background: #2196f3;
-  border-radius: 2px;
+  background: var(--accent-color);
 }
 
 /* Контакты */
 .menu-contacts .linki {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-.menu-contacts .linki:hover {
-  color: var(--accent-color);
+.linki:hover,
+:focus {
+  background: var(--accent-color);
 }
 
+/* Стили для Studio */
 /* Hero */
 .hero-title {
   color: var(--white-color);
   background: rgba(47, 48, 58, 0.8);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
 }
 .hero-link {
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /* section */
+.section-features {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-style: normal;
+  color: #212121;
+}
+.section-work,
+.section-team,
+.section-client {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 .section-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--title-text-color);
 }
 .section-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/* Стили для Portfolio */
+/* Фильтр */
+
+.btn-filtr {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.btn .btn-filtr:hover,
+:focus {
+  background: #2196f3;
+  color: white;
+}
+/* Проеткы */
+.project-link {
+}
+.project-title {
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.project-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
